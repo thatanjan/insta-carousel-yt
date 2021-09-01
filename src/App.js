@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Grid from '@material-ui/core/Grid'
+import Typography from '@material-ui/core/Typography'
+
+import PostCard from './PostCard'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='App'>
+			<Grid container>
+				<Grid
+					item
+					xs={12}
+					style={{ height: '25vh', display: 'grid', placeItems: 'center' }}
+				>
+					<Typography variant='h3'>Insta Carousel</Typography>
+				</Grid>
+
+				<Grid item container xs={12} justifyContent='center'>
+					<Grid item xs={3}>
+						<PostCard />{' '}
+					</Grid>
+				</Grid>
+			</Grid>
+		</div>
+	)
 }
 
-export default App;
+export default App

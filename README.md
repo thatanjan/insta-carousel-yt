@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Insta Carousel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Insta Carousel](https://insta-carousel-demo.vercel.app/) is a project that is build for the video of [Build a carousel postcard like Instagram](https://www.youtube.com/watch?v=NDyjI7hd4uE) on [Cules Coding](https://www.youtube.com/c/CulesCoding18) youtube channel
 
-## Available Scripts
+![Screenshot of insta carousel](https://raw.githubusercontent.com/thatanjan/insta-carousel-yt/development/public/Screenshot%20of%20the%20App.png)
 
-In the project directory, you can run:
+## Setup from scratch
 
-### `yarn start`
+### Create a create-react-app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npx create-react-app <app>
+cd <app>
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Install packages
 
-### `yarn test`
+```bash
+yarn add @material-ui/core @material-ui/icons swiper
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Start from minimal setup
 
-### `yarn build`
+```bash
+git clone git@github.com:thatanjan/insta-carousel-yt.git
+cd insta-carousel-yt
+git fetch
+git checkout scratch
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Authors
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [@thatanjan](https://www.github.com/thatanjan)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Related
 
-### `yarn eject`
+Here are some related projects
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [Cules Todo](https://github.com/thatanjan/redux-toolkit-crash-course)
+- [Confession](https://github.com/thatanjan/confession)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Feedback
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+If you have any feedback, please reach out to me at thatanjan@gmail.com.
+You can also contact me on social media.
+Please visit [thatanjan.me](http://thatanjan.me/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Support
 
-## Learn More
+For support, Please visit [Confession](https://con-fession.vercel.app/).
+Confession is a social media application to help people overcome their imposter syndrome.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT](https://choosealicense.com/licenses/mit/)
